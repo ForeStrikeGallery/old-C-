@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+
+struct node{
+	int data;	
+	node *left;
+	node *right;
+};
+
+
+class Tree{
+	private:
+		node* root;
+	public:
+		Tree(int data);
+		void insertNode(int data);
+};
+
+Tree :: Tree(int data)
+{
+	root->left = NULL;
+	root->right = NULL;	
+	root->data = data;
+}
+
+
+void Tree :: insertNode(int data)
+{
+	struct node* temp = new node();
+	temp->data = data;
+	
+}
+
+struct node* newNode(int data)
+{
+	struct node* temp = new node();
+	temp->right = NULL;
+	temp->left = NULL;
+}
+
+int main()
+{
+ struct node* root = newNode(1);
+	root->left = newNode(3);
+ return 0;
+}
