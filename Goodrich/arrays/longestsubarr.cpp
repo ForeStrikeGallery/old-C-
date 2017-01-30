@@ -27,6 +27,14 @@ const int max_num = 1000000;
 
 	Good, that worked!
 
+	The complexity is O(n) even though there are two loops, actually I didn't need two loops
+	I'll rewrite it.
+
+	Nah, too much pain.
+
+	Oh and Kadane's algorithm is the same one, so that's chill
+	
+
 */
 
 void print(int *arr, int N) {
